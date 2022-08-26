@@ -18,7 +18,7 @@ const httpOptions = {
 })
 export class TaskService {
 
-  private apiUrl = 'http://sakilabeanstalk-env.eba-zkkzp5jg.eu-west-2.elasticbeanstalk.com/Sakila'
+  private apiUrl = 'http://aamj9g4woseig9.cfintzmmmvrg.eu-west-2.rds.amazonaws.com'
   //private apiUrl = 'http://localhost:5000/tasks'
   constructor(private http:HttpClient) { }
 

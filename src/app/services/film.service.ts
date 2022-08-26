@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class FilmService {
 
-  private apiUrl =  'http://aamj9g4woseig9.cfintzmmmvrg.eu-west-2.rds.amazonaws.com'//'http://sakilabeanstalk-env.eba-zkkzp5jg.eu-west-2.elasticbeanstalk.com/Sakila'
+  private apiUrl =  'http://aamj9g4woseig9.cfintzmmmvrg.eu-west-2.rds.amazonaws.com'
 
   constructor(private http:HttpClient) { }
 

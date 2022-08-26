@@ -1,4 +1,12 @@
 <header>
+    <h1> Actors </h1>
+    <app-button color="{{showAddActor ? 'red' : 'green'}}" 
+        text="{{showAddActor ? 'Close' : 'Add / Update'}}"
+        (btnClick)="toggleAddActor()"> </app-button>
+
+</header>
+
+<!--<header>
     <h1>{{ title }}</h1>
     <app-button color="blue" text="Butty Button" (btnClick)="toggleAddTask()"></app-button>
-</header>
+</header> -->

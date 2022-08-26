@@ -1,4 +1,4 @@
-.task {
+.film {
     background: #f4f4f4;
     margin: 5px;
     padding: 10px 20px;
@@ -6,13 +6,13 @@
     min-height: 300px;
   }
   
-  .task h3 {
+  .film h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .task img {
+  .film img {
     max-width: fit-content;
   }
 
